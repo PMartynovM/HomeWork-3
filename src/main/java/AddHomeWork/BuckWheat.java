@@ -17,7 +17,6 @@ public class BuckWheat {
 
         for (int i = 0; i <= basilWantToEat; i+=6) {
             sumAllBuckWheat += i;
-            System.out.println(i);
         }
 
         System.out.println(sumAllBuckWheat * pricePerMonthOneKg + " деревянных нужно за " + input + " месяцев");
